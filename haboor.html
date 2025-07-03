@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ایرپاد Anker R50i - تخفیف ویژه هابور در باسلام</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;900&display=swap');
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            background-color: #1a1a1a; /* Matte Black Background */
+            color: #f0f0f0; /* Light text for contrast */
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        .section-bg {
+            background-color: #2a2a2a; /* Slightly lighter dark for sections */
+            border-radius: 1rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+        }
+        .price-old {
+            text-decoration: line-through;
+            color: #999;
+            font-size: 1.25rem;
+        }
+        .price-new {
+            color: #22c55e; /* Green for new price */
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .discount-percentage {
+            background-color: #ef4444; /* Red for discount badge */
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.5rem;
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-right: 0.5rem;
+        }
+        .add-to-cart-btn {
+            background-color: #007bff; /* Blue for call to action */
+            color: white;
+            padding: 1rem 2.5rem;
+            border-radius: 9999px; /* Fully rounded */
+            font-weight: bold;
+            font-size: 1.25rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+        }
+        .add-to-cart-btn:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 123, 255, 0.6);
+        }
+
+        /* Image Carousel Styling */
+        .image-carousel {
+            display: flex;
+            overflow-x: scroll; /* Enable horizontal scrolling */
+            -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+            scroll-snap-type: x mandatory; /* Snap to images */
+            scrollbar-width: none; /* Hide scrollbar for Firefox */
+            -ms-overflow-style: none;  /* Hide scrollbar for IE/Edge */
+            padding-bottom: 1rem; /* Space for potential scrollbar if not hidden */
+        }
+        .image-carousel::-webkit-scrollbar {
+            display: none; /* Hide scrollbar for Chrome, Safari, Opera */
+        }
+        .image-carousel img {
+            flex-shrink: 0; /* Prevent images from shrinking */
+            width: 90%; /* Adjust as needed for mobile view */
+            max-width: 400px; /* Max width for larger screens */
+            height: auto;
+            border-radius: 0.75rem;
+            margin-left: 1rem; /* Space between images */
+            scroll-snap-align: start; /* Align images to start of scroll area */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            object-fit: contain; /* Ensure image fits without cropping */
+            background-color: #3a3a3a; /* Dark background for images */
+            padding: 0.5rem;
+        }
+        @media (min-width: 768px) {
+            .image-carousel img {
+                width: 45%; /* Two images per row on medium screens */
+            }
+        }
+        @media (min-width: 1024px) {
+            .image-carousel img {
+                width: 30%; /* Three images per row on large screens */
+            }
+        }
+
+        /* Habour Logo Animation */
+        .habour-logo-animated {
+            transition: transform 0.3s ease-in-out;
+        }
+        .habour-logo-animated:hover {
+            transform: scale(1.05);
+        }
+        .habour-logo-pulse {
+            animation: pulse-logo 2s infinite ease-in-out;
+        }
+        @keyframes pulse-logo {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.03); opacity: 0.9; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+    </style>
+</head>
+<body class="text-right">
+    <div class="container py-8">
+        <!-- Header with Habour Logo -->
+        <header class="flex justify-between items-center mb-8">
+            <a href="https://basalam.com/haboor" target="_blank" class="habour-logo-animated">
+                <img src="https://s33.picofile.com/file/8485553950/IMG_20250703_181110_883.png" alt="لوگوی هابور" class="h-12 md:h-16">
+            </a>
+            <h1 class="text-3xl md:text-5xl font-extrabold text-blue-400">
+                ایرپاد Anker R50i
+            </h1>
+        </header>
+
+        <!-- Main Product Section -->
+        <section class="section-bg p-6 md:p-8 mb-8 flex flex-col items-center justify-center">
+            <div class="w-full text-center mb-6">
+                <h2 class="text-2xl md:text-4xl font-bold text-gray-100 mb-4">
+                    صدایی فراتر از انتظار، تجربه‌ای بی‌نظیر
+                </h2>
+                <p class="text-lg text-gray-300 mb-6">
+                    غرق در دنیای موسیقی با بیس قدرتمند و مکالمات شفاف!
+                    <br>
+                    ایرپاد Anker R50i با شارژدهی طولانی و طراحی ارگونومیک، همراه همیشگی شماست.
+                </p>
+            </div>
+
+            <!-- Main Product Image -->
+            <div class="w-full flex justify-center mb-8">
+                <img src="https://s33.picofile.com/file/8485553976/IMG_20250703_172728.png" alt="تصویر اصلی ایرپاد Anker R50i" class="w-full max-w-lg rounded-lg shadow-xl object-contain bg-gray-800 p-4">
+            </div>
+
+            <!-- Product Pricing and Add to Cart -->
+            <div class="w-full flex flex-col items-center justify-center mb-8">
+                <div class="flex items-center mb-4">
+                    <span class="price-old ml-4">1,300,000 تومان</span>
+                    <span class="price-new">1,150,000 تومان</span>
+                    <span class="discount-percentage">تخفیف 13 درصدی</span>
+                </div>
+                <p class="text-lg text-yellow-400 font-semibold mb-6">
+                    18 ماه گارانتی
+                </p>
+                <a href="https://basalam.com/haboor/product/23992440" target="_blank" class="add-to-cart-btn">
+                    افزودن به سبد خرید
+                </a>
+            </div>
+
+            <!-- Existing English Text (as per user's request to keep them) -->
+            <div class="w-full flex flex-col items-center md:items-center text-blue-400 font-bold mb-6">
+                <div class="text-5xl">10 <span class="text-2xl">HRS</span></div>
+                <div class="text-xl -mt-2 text-gray-300">Single Charge</div>
+                <div class="text-5xl mt-4">30 <span class="text-2xl">HRS</span></div>
+                <div class="text-xl -mt-2 text-gray-300">With Charging Case</div>
+                <div class="flex items-center mt-4 text-2xl text-green-400">
+                    <svg class="w-8 h-8 ml-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.832 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.832-1.573l7-10a1 1 0 011.132-.381z" clip-rule="evenodd"></path></svg>
+                    Fast Charge
+                </div>
+            </div>
+        </section>
+
+        <!-- Image Gallery (Horizontal Scroll) -->
+        <section class="section-bg p-6 md:p-8 mb-8">
+            <h3 class="text-2xl md:text-3xl font-bold text-gray-100 mb-6 text-center">
+                تصاویر محصول
+            </h3>
+            <div class="image-carousel" id="product-images-carousel">
+                <img src="https://s33.picofile.com/file/8485553976/IMG_20250703_172728.png" alt="ایرپاد Anker R50i - تصویر 1">
+                <img src="https://s33.picofile.com/file/8485554092/IMG_20250703_174119.jpg" alt="ایرپاد Anker R50i - تصویر 2">
+                <img src="https://s33.picofile.com/file/8485554100/IMG_20250703_174050.png" alt="ایرپاد Anker R50i - تصویر 3">
+                <img src="https://s33.picofile.com/file/8485554000/IMG_20250703_173927.jpg" alt="ایرپاد Anker R50i - تصویر 4">
+                <!-- Add more images here if needed -->
+            </div>
+        </section>
+
+        <!-- Key Features Section (now below add to cart) -->
+        <section class="section-bg p-6 md:p-8 mb-8">
+            <h3 class="text-2xl md:text-3xl font-bold text-gray-100 mb-6 text-center">
+                مشخصات کلیدی
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-lg text-gray-300">
+                <div class="feature-item">
+                    <span class="feature-icon">✔</span>
+                    <span>**صدای استثنایی و بیس قدرتمند:** با درایورهای 10 میلی‌متری، هر نت و هر ضربان را با وضوح خیره‌کننده و بیسی عمیق احساس کنید.</span>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">✔</span>
+                    <span>**تماس‌های شفاف:** 2 میکروفون با هوش مصنوعی برای حذف نویزهای محیطی، مکالماتی شفاف و بدون مزاحمت را تضمین می‌کند.</span>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">✔</span>
+                    <span>**شارژدهی طولانی‌مدت:** تا 10 ساعت پخش مداوم با یک بار شارژ و 30 ساعت با کیس شارژ، موسیقی شما هرگز متوقف نمی‌شود.</span>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">✔</span>
+                    <span>**طراحی ارگونومیک و سبک:** برای راحتی بی‌نظیر در استفاده طولانی‌مدت، طراحی شده تا کاملاً در گوش شما جای بگیرد.</span>
+                </div>
+                <div class="feature-item">
+                    <span class="feature-icon">✔</span>
+                    <span>**ضد آب IPX5:** مناسب برای ورزش و فعالیت‌های روزمره، مقاوم در برابر پاشش آب و عرق.</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Discount Call to Action Section -->
+        <section class="bg-blue-700 text-white rounded-xl shadow-lg p-6 md:p-8 text-center mb-8">
+            <h3 class="text-3xl md:text-4xl font-extrabold mb-4 habour-logo-pulse">
+                فرصت رو از دست نده!
+            </h3>
+            <p class="text-xl md:text-2xl font-semibold">
+                تخفیف ویژه هابور در باسلام!
+                <br>
+                کیفیت عالی با ضمانت خرید
+            </p>
+        </section>
+
+        <!-- Footer with Basalam Logo and Login Link -->
+        <footer class="flex flex-col md:flex-row justify-between items-center py-6 text-gray-400 text-sm">
+            <a href="https://basalam.com/haboor/product/23992440" target="_blank" class="mb-4 md:mb-0">
+                <img src="https://s33.picofile.com/file/8485554050/Basalam_Logo_1030x1030.png" alt="لوگوی باسلام" class="h-16">
+            </a>
+            <a href="https://basalam.com/haboor/product/23992440" target="_blank" class="text-blue-400 hover:text-blue-300 transition-colors duration-300 text-lg md:text-xl font-semibold">
+                ورود به فروشگاه هابور در باسلام
+            </a>
+        </footer>
+    </div>
+
+    <script>
+        // Automatic horizontal scrolling for image carousel
+        const carousel = document.getElementById('product-images-carousel');
+        let scrollAmount = 0;
+        const scrollSpeed = 2; // Pixels per frame
+        const scrollInterval = 30; // Milliseconds per frame
+
+        function autoScroll() {
+            if (carousel.scrollLeft >= (carousel.scrollWidth - carousel.clientWidth - 1)) {
+                // Reset to start if reached end
+                carousel.scrollLeft = 0;
+            } else {
+                carousel.scrollLeft += scrollSpeed;
+            }
+        }
+
+        let scrollTimer = setInterval(autoScroll, scrollInterval);
+
+        // Pause on hover
+        carousel.addEventListener('mouseenter', () => {
+            clearInterval(scrollTimer);
+        });
+        carousel.addEventListener('mouseleave', () => {
+            scrollTimer = setInterval(autoScroll, scrollInterval);
+        });
+    </script>
+</body>
+</html>
